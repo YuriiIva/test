@@ -1,0 +1,114 @@
+:root {
+    --bgr-primery: #4FBFA5;
+    --bgr-secondary: #00868A;
+    --text-color-primery: #FFFFFF;
+    --text-secondare: #000000;
+    --main-font-family: Gilroy, sans-serif;
+
+}
+
+body {
+    font-weight: 500;
+    /* font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif; */
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 1295px;
+    height: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+
+}
+
+.btn-main {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 15px 10px;
+font-family: Gilroy;
+font-size: 18px;
+line-height: calc(21 / 18);
+}
+
+.btn-header-futer {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 15px 8px;
+background: var(--bgr-secondary);
+font-family: Gilroy;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0em;
+
+
+}
+
+
+/* ---------header----------- */
+
+.header-section {
+    padding: 25px 0 25px 0;
+}
+.header-list-top-left, .header-list-top-right, .header-list-bottom  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 17px 0;
+    margin-left: 36px;
+    margin-right: 28px;
+}
+.header-list-top-left {
+margin-right: 60px;
+}
+  
+  .header-logo {
+      margin-right: 65px;
+  }
+  .header-tel {
+      margin-right: 60px;
+  }
+.btn-header-top {
+    margin-right: 60px;
+    text-transform: uppercase;
+  
+}
+.header-item-top-right:not(last-child) {
+    margin-right: 56px;
+}
+.header-item-bottom {
+    margin-left: 51px;
+}
+.header-item-bottom a{
+  color: var(--text-color-primery);  
+}
+.header-item-bottom:not(last-child) {
+    margin-right: 65px;
+}
+.header-btn-bottom {
+    margin-right: 10px;
+    width: 175px;
+}
+.header-top-left-link {
+color: var(--text-secondare);
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bgr-primery);
+    padding: 24px 0;
+    
+}

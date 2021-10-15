@@ -1,38 +1,48 @@
 <!DOCTYPE html>
-<html lang=ru">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Practice1</title>
 </head>
 
 <body>
     <header>
-        <section>
-            <ul>
-                <li><a href="">MEDI</a></li>
-                <li><a href="tel:+71234567890">+7 (123) 456 78 90</a></li>
-                <li><a href="">Наши салоны</a></li>
-            </ul>
-            <button type="button">Версия для слабовидящих</button>
-            <ul>
-                <li><a href="">1</a></li>
-                <li><a href="">2</a></li>
-                <li><a href="">3</a></li>
-                <li><a href="">4</a></li>
-            </ul>
-            <ul>
-                <li><a href="">Косметология</a></li>
-                <li><a href="">Пластическая хирургия</a></li>
-                <li><a href="">Стоматологияогия</a></li>
-                <li><a href="">Лазерная медицина</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-            <button type="button">Запись на прием</button>
-        </section>
+        <div class="container">
+        <section class="header-section section">
+            <div class="header-top">
 
+            <ul class="header-list-top-left">
+                <li class="header-logo"><a class="header-top-left-link" href="" >MEDI</a></li>
+                <li class="header-item-top-left header-tel"><a class="header-top-left-link" href="tel:+71234567890">+7 (123) 456 78 90</a></li>
+                <li class="header-item-top-left"><a class="header-top-left-link" href="">Наши салоны</a></li>
+            </ul>
+            <button class="btn-header-top btn-header-futer" type="button">Версия для слабовидящих</button>
+            <ul class="header-list-top-right">
+                <li class="header-item-top-right"><a href="">1</a></li>
+                <li class="header-item-top-right"><a href="">2</a></li>
+                <li class="header-item-top-right"><a href="">3</a></li>
+                <li class="header-item-top-right"><a href="">4</a></li>
+            </ul>
+        </div> 
+        <div class="header-bottom">
+            <ul class="header-list-bottom">
+                <li class="header-item-bottom"><a href="">Косметология</a></li>
+                <li class="header-item-bottom"><a href="">Пластическая хирургия</a></li>
+                <li class="header-item-bottom"><a href="">Стоматологияогия</a></li>
+                <li class="header-item-bottom"><a href="">Лазерная медицина</a></li>
+                <li class="header-item-bottom"><a href="">Контакты</a></li>
+            </ul>
+            <button class="header-btn-bottom btn-main" type="button">Запись на прием</button>
+        </div>
+        </section>
+       </div>
 
     </header>
     <main>
