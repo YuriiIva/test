@@ -27,7 +27,7 @@
                         </a></li>
                 <li class="header-item-top-left header-tel"><a class="header-top-left-link" href="tel:+71234567890">+7 (123) 456 78 90</a></li>
                 <li class="header-item-top-left"><a class="header-top-left-link" href="">Наши салоны
-                    <svg width="20" height="20" >
+                    <svg class="header-top-icon" width="20" height="20" >
                         <use href="./images/icons.svg#icon-Group-1"></use>
                     </svg>
                 </a></li>
@@ -76,38 +76,39 @@
        </div>
 
     </header>
+
     <main>
         <!-- Hero -->
-        <section>
+        
             <div class="container">
-                <div class="row">
+                <section>
+                <div class="row hero-low">
                     <div class="left-column">
-                        <h1>Косметология</h1>
-                        <p>Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая
+                        <h1 class="left-column-title " >Косметология</h1>
+                        <p class="hero-text" >Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая
                             фигура — сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека
                             благополучного и успешного.</p>
-                        <a href="">подробнее</a>
-                        <ul>
-                            <li><button type="button">&larr;</button></li>
-                            <li><button type="button">&rarr;</button></li>
+                        <button type="button" class="hero-btn" >подробнее</button>
+                        <ul class="toggle-slider">
+                            <li><button class="toggle-slider-btn" type="button">&larr;</button></li>
+                            <li><button class="toggle-slider-btn" type="button">&rarr;</button></li>
                         </ul>
                     </div>
                     <div class="right-column">
-                        <ul>
+                        <ul class="hero-picture" >
                             <li><img src="./images/image1.jpg" alt="примеры работ" width="746"></li>
                         </ul>
 
                     </div>
                 </div>
-                <div class="row">
-                    <ul>
-                        <li><a href="">Комплексные процедуры</a></li>
-                        <li><a href="">Центр обучения</a></li>
-                        <li><a href="">VIP клиентам</a></li>
+                    <ul class="btb-nav-list" >
+                        <li ><button class="btn-nav" type="button">Комплексные процедуры</button></li>
+                        <li><button class="btn-nav active" type="button">Центр обучения</button></li>
+                        <li><button class="btn-nav" type="button">VIP клиентам</button></li>
                     </ul>
-                </div>
+                </section>
             </div>
-        </section>
+       
 
         <!-- Information -->
 
