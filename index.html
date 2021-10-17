@@ -115,10 +115,10 @@
         <section>
             <h2 class="title-hidden">Скрытый заголовок</h2>
             <div class="container">
-                <div class="row">
+                <div class="row information-card">
                     <div class="left-column-inf">
                         <div class="left-column-inf-top">
-                        <button type="button" class="left-column__btn" >Инновации</button>
+                        <button type="button" class="left-column-inf__btn" >Инновации</button>
                         <h2 class="left-column__title" >Мы практикуем новый курс процедур аппаратной косметологии </h2>
                         <a href="" class="left-column__link" >
                             <span class="left-column__icon" >&rarr;</span> Подробнее</a>
@@ -137,7 +137,8 @@
                             <ul>
                                 <li class="achievement__link" >Современных центра в странах СНГ</li>
                                 <li class="achievement__link" >Современных центра в странах СНГ</li>
-                                <li class="achievement__link" >Уникальных патентов в области косметологии</li>
+                                <li class="achievement__link achievement__link--active " > 
+                                    <p class="achievement__text--active" achievement__text> Уникальных патентов в области косметологии </p> </li>
                                 <li class="achievement__link" >Современных центра в странах СНГ</li>
                                 </ul>
                             </div>
@@ -201,58 +202,60 @@
         </section>
 
         <!-- Offer -->
-        <section>
-            <h2>Актуальные спецпредложения </h2>
+        <section class="offer__section" >
+            <h2 class="Offer__title" >Актуальные спецпредложения </h2>
             <div class="container">
-                <ul class="row">
-                    <li>
+                <ul class="row offer__list" >
+                    <li class="offer__item" >
                         <div>
-                            <button type="button">Косметология</button>
+                            <button class="offer__item-btn" type="button">Косметология</button>
                             <img src="./images/offers/offer1.jpg" alt="работа на компьютере" width="306">
                         </div>
-                        <div>
-                            <h3>Лазерное и фотоомоложение</h3>
-                            <a href="">&rarr;</a>
+                        <div class="offer__item-section">
+                            <h3 class="offer__item-second-title">Лазерное и фотоомоложение</h3>
+                            <a class="offer__item-icon" href="">&rarr;</a>
                         </div>
                     </li>
-                    <li>
+                    <li class="offer__item"> 
                         <div>
-                            <button type="button">Косметология</button>
+                            <button class="offer__item-btn" type="button">Косметология</button>
                             <img src="./images/offers/offer2.jpg" alt="работа на компьютере" width="306">
                         </div>
-                        <div>
-                            <h3>Лазерное и фотоомоложение</h3>
-                            <a href="">&rarr;</a>
+                        <div class="offer__item-section">
+                            <h3 class="offer__item-second-title">Лазерное и фотоомоложение</h3>
+                            <a class="offer__item-icon" href="">&rarr;</a>
                         </div>
                     </li>
-                    <li>
+                    <li class="offer__item">
                         <div>
-                            <button type="button">Косметология</button>
+                            <button class="offer__item-btn" type="button">Косметология</button>
                             <img src="./images/offers/offer3.jpg" alt="работа на компьютере" width="306">
                         </div>
-                        <div>
-                            <h3>Лазерное и фотоомоложение</h3>
-                            <a href="">&rarr;</a>
+                        <div class="offer__item-section">
+                            <h3 class="offer__item-second-title">Лазерное и фотоомоложение</h3>
+                            <a class="offer__item-icon" href="">&rarr;</a>
                         </div>
                     </li>
-                    <li>
+                    <li class="offer__item">
                         <div>
-                            <button type="button">Косметология</button>
+                            <button class="offer__item-btn" type="button">Косметология</button>
                             <img src="./images/offers/offer4.jpg" alt="работа на компьютере" width="306">
                         </div>
-                        <div>
-                            <h3>Лазерное и фотоомоложение</h3>
-                            <a href="">&rarr;</a>
+                        <div class="offer__item-section">
+                            <h3 class="offer__item-second-title">Лазерное и фотоомоложение</h3>
+                            <a class="offer__item-icon" href="">&rarr;</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
+
+
     <footer>
         <section>
             <div class="row">
-            <ul>
+            <ul class="footer__top-low">
                 <li>
                     <h2>Услуги </h2>
                     <ul>
